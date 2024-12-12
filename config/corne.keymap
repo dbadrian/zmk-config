@@ -54,3 +54,9 @@
                 };
         };
 };
+
+
+//adjust the length of per side led strip
+&led_strip {
+    chain-length = <21>;
+};
