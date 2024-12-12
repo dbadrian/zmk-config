@@ -58,5 +58,6 @@
 
 //adjust the length of per side led strip
 &led_strip {
-    chain-length = <21>;
+    // 21 + 6
+    chain-length = <27>;
 };
