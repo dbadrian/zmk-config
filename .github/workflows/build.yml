@@ -42,5 +42,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.vars.outputs.sha_short }}
-          artifacts: "build/firmware.zip"
+          artifacts: "build/*"
           token: ${{ secrets.GITHUB_TOKEN }}
