@@ -37,6 +37,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.vars.outputs.tag }}
+          tag: ${{ steps.tag.outputs.TAG }}
           artifacts: "build/*"
           token: ${{ secrets.GITHUB_TOKEN }}
