@@ -29,5 +29,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
+          tag: $GITHUB_SHA
           artifacts: "build/firmware.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
