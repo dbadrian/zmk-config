@@ -113,6 +113,8 @@ if __name__ == "__main__":
     # download firmware to a temporary folder
     r = requests.get('https://api.github.com/repos/dbadrian/zmk-config/releases/latest')
     release_details = r.json()
+    print(release_details)
+    exit()
     
     files = {a['name']: a['browser_download_url'] for a in release_details['assets']}
     

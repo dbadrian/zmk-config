@@ -24,11 +24,9 @@ jobs:
         with:
           fetch-depth: 0  # Fetch all commits and tags
       
-      - name: Set outputs
-        id: vars
-        run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - name: Check outputs
-        run: echo ${{ steps.vars.outputs.sha_short }}
+      - name: Create tag
+        id: tag
+        run: echo "TAG=v1.0.${{ github.run_number }}-$(git rev-parse --short HEAD)" >> $GITHUB_ENV
 
       - name: Retrieve Linux Artifacts
         uses: actions/download-artifact@v4
@@ -39,6 +37,6 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.vars.outputs.sha_short }}
+          tag: ${{ steps.vars.outputs.tag }}
           artifacts: "build/*"
           token: ${{ secrets.GITHUB_TOKEN }}
