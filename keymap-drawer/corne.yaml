@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - RIGHT ALT
+  - BACKSPACE
   - TAB
   - A
   - S
@@ -42,7 +42,7 @@ layers:
   - SPACE
   - RET
   - num_and_nav
-  - BACKSPACE
+  - RIGHT ALT
   num_and_nav:
   - TAB
   - '1'
