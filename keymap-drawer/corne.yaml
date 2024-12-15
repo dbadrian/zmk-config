@@ -62,11 +62,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - UP
+  - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
   - {t: ▽, type: trans}
@@ -149,10 +149,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
