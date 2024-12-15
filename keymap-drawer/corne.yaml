@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
-  - {t: media, h: toggle}
+  - media
   - SPACE
   - RET
   - {type: held}
@@ -127,7 +127,7 @@ layers:
   - {type: held}
   - SPACE
   - RET
-  - {t: media, h: toggle}
+  - media
   - RALT
   media:
   - '1'
@@ -167,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
