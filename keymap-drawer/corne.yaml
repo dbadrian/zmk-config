@@ -1,9 +1,50 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [ESC, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LCTRL, specialchars,
-    SPACE, RET, num_and_nav, BACKSPACE]
-  num_and_nav:
+  default:
+  - {t: ESCAPE, h: LCTRL}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BACKSPACE
   - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ESC
+  - LCTRL
+  - specialchars
+  - SPACE
+  - RET
+  - num_and_nav
+  - RIGHT ALT
+  num_and_nav:
+  - {t: ESCAPE, h: LCTRL}
   - '1'
   - '2'
   - '3'
@@ -15,17 +56,17 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - '6'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - UP
+  - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
   - {t: ▽, type: trans}
@@ -34,19 +75,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
-  - {t: ▽, type: trans}
+  - media
   - SPACE
   - RET
   - {type: held}
   - RALT
   specialchars:
-  - TAB
+  - {t: ESCAPE, h: LCTRL}
   - '!'
   - '@'
   - '#'
@@ -58,7 +99,7 @@ layers:
   - (
   - )
   - BSPC
-  - LCTRL
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,5 +127,48 @@ layers:
   - {type: held}
   - SPACE
   - RET
-  - {t: ▽, type: trans}
+  - media
   - RALT
+  media:
+  - '1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
