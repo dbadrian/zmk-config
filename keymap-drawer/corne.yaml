@@ -3,7 +3,7 @@ layers:
   default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, specialchars,
     SPACE, RET, num_and_nav, RIGHT ALT]
   num_and_nav:
-  - {t: ESCAPE, h: LCTRL}
+  - TAB
   - '1'
   - '2'
   - '3'
@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - TAB
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -27,7 +27,7 @@ layers:
   - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
-  - LSHFT
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -46,7 +46,7 @@ layers:
   - {type: held}
   - RALT
   specialchars:
-  - {t: ESCAPE, h: LCTRL}
+  - TAB
   - '!'
   - '@'
   - '#'
@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - BSPC
-  - TAB
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -70,7 +70,7 @@ layers:
   - ']'
   - \
   - '`'
-  - LSHFT
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
