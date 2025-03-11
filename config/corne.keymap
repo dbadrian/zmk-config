@@ -58,9 +58,9 @@
 
         media {
             bindings = <
-&kp NUMBER_1  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans      &trans             &trans           &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &kp K_PLAY_PAUSE  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
-&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans      &trans             &trans           &trans
+&kp NUMBER_1  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans             &trans           &trans      &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans
+&trans        &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans             &trans           &trans      &trans
                               &trans  &trans  &trans    &trans  &trans            &trans
             >;
         };
