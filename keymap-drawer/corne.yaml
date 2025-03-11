@@ -109,9 +109,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PLAY PAUSE
-  - MUTE
   - VOLUME DOWN
   - VOLUME UP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
