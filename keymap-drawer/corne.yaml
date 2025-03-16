@@ -26,7 +26,7 @@ layers:
   - DOWN
   - UP ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - DEL
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
