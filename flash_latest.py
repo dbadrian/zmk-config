@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-    """Flash the latest firmware to the Corne keyboard.
-
-    This script will download the latest firmware from the ZMK repository and flash it to the Corne keyboard.
-    """
+"""Flash the latest firmware to the Corne keyboard.
+This script will download the latest firmware from the ZMK repository and flash it to the Corne keyboard.
+"""
 import argparse
 import os
 import shutil
