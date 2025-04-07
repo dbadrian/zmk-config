@@ -107,11 +107,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PLAY PAUSE
-  - VOLUME DOWN
+  - PAUSE
+  - VOL DN
   - VOLUME UP
   - MUTE
+  - RGB TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
