@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAUSE
+  - PLAY PAUSE
   - VOL DN
   - VOLUME UP
   - MUTE
