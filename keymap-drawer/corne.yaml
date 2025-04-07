@@ -22,8 +22,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
-  - UP ARROW
   - DOWN
+  - UP ARROW
   - RIGHT
   - {t: ▽, type: trans}
   - DEL
