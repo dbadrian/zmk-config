@@ -58,7 +58,7 @@ layers:
   - (
   - )
   - BSPC
-  - LEFT SHIFT
+  - '&shift_dance'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
